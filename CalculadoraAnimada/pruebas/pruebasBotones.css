@@ -1,0 +1,65 @@
+.masa {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.masa td button {
+    display: block;
+    width: 114px;
+    height: 79px;
+    border-radius: 10px;
+}
+
+#borrar {
+    background-color: orangered;
+    width: 353px;
+}
+
+#result {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 14px;
+    overflow-y: auto;
+    text-align: right;
+    line-height: 110px;
+    padding-right: 5px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+.opcionesMasa {
+    display: grid;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 765px;
+    height: 560px;
+    border-radius: 20px;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.opcionesMasa>button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    height: 70px;
+}
+
+.opcionesMasa>button:hover {
+    background-color: #f4fff0;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Document</title>
+    <script>
+        var numero = 111;
+        var posicion = 0;
+        var sumaTotal;
+        var longitud = numero.length;
+        for (longitud; posicion <= longitud; posicion++) {
+            var char = numero.charAt(posicion);
+            if (char == 1) {
+                var pos = char * 2 ^ posicion;
+                sumaTotal += pos;
+                posicion++;
+            } else {
+                posicion++;
+            }
+        }
+        alert(sumaTotal);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
